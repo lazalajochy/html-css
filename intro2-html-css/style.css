@@ -1,0 +1,257 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+section #menu-bar{
+    padding: 50px 0;
+    background-image: url(./img/background-img.jpeg);
+    background-repeat: no-repeat;
+}
+
+section #menu-bar ul{
+    margin: 0;
+    padding: 0;
+}
+
+section #menu-bar ul li{
+    display: inline-block;
+    margin:10px;
+    vertical-align: middle;
+}
+
+section #menu-bar ul li a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+}
+
+section #menu-bar ul li a:hover{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+
+section #menu-bar #logo{
+    margin-right: 45%;
+    margin-left: 100px;
+}
+
+section #menu-bar #logo #logo-img{
+    width: 150px;
+    height: 100px;
+}
+
+/*-----------------------------------------------------*/
+section #main-content{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10vh;
+}
+
+section #main-content #content{
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+section #main-content #content h1{
+    margin-bottom: 15px;
+}
+
+section #main-content #content p{
+    font-size: 20px;
+}
+
+
+section #main-content #img{
+    width: 700px;
+    margin-right: 20px;
+}
+
+/* ------------------------------------------------------------- */
+
+@media screen and (max-width:819px) {
+  
+section #menu-bar #logo{
+    margin-right: 25%;
+    margin-left: 100px;
+}
+    
+}
+
+@media screen and (max-width:616px){
+        
+section #menu-bar #logo{
+    margin-right: 15%;
+    margin-left: 50px;
+}
+
+}
+
+@media screen and (max-width:486px){
+    section #menu-bar #logo{
+        margin-right: 5%;
+        margin-left: 20px;
+    }
+}
+
+@media screen and (max-width:392px){
+    section #menu-bar #logo{
+        margin-right: 0%;
+        margin-left: 5px;
+    }
+}
+
+
+@media screen and (max-width:355px){
+ 
+    section #menu-bar ul{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+/* ---------------------------------------- */
+@media screen and (max-width:1050px){
+    section #main-content #img{
+        width: 500px;
+        height: 600px;
+    }
+}
+
+@media screen and (max-width:850px){
+    section #main-content{
+        display: flex;
+        flex-direction: column;
+    }
+    section #main-content #img{
+        width: 750px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 15px;
+      
+    }
+}
+
+@media screen and (max-width:805px){
+    section #main-content #img{
+        width: 700px;
+        ;
+    }
+}
+
+
+@media screen and (max-width:755px){
+    section #main-content #img{
+        width: 650px;
+    }
+}
+
+
+@media screen and (max-width:704px){
+    section #main-content #img{
+        width: 600px;
+    }
+}
+
+
+
+@media screen and (max-width:654px){
+    section #main-content #img {
+        width: 550px;
+    }
+}
+
+@media screen and (max-width:605px){
+    section #main-content #img{
+        width: 500px;
+    }
+}
+
+@media screen and (max-width:555px){
+    section #main-content #img{
+        width: 450px;
+    }
+}
+
+@media screen and (max-width:505px){
+    section #main-content #img{
+        width: 400px;
+    }
+}
+
+@media screen and (max-width:455px){
+    section #main-content #img{
+        width: 350px;
+    }
+}
+@media screen and (max-width:405px){
+    section #main-content #img{
+        width: 300px;
+    }
+}
+@media screen and (max-width:355px){
+    section #main-content #img{
+        width: 250px;
+    }
+}
+@media screen and (max-width:305px){
+    section #main-content #img{
+        width: 200px;
+    }
+}
+@media screen and (max-width:255px){
+    section #main-content #img{
+        width: 150px;
+    }
+}
+@media screen and (max-width:205px){
+    section #main-content #img{
+        width: 100px;
+    }
+}
+@media screen and (max-width:155px){
+    section #main-content #img{
+        width: 50px;
+    }
+}
+
+/* ---------------------------------------- */
+
+section #contact-content{
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+}
+
+section #contact-content #contact-info{
+    margin-left: 20px;
+    margin-right: 20%;
+}
+
+section #contact-content #contact-form{
+    width: 600px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+
+section #contact-content #contact-form .input-text{
+    width:300px;
+    height: 40px;
+    border-radius: 20px;
+
+}
+
+
+section #contact-content input{
+    margin-left: 20px;;
+}
+
+
+section #contact-content label{
+    margin-left: 20px;;
+}
