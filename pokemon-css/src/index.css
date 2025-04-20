@@ -1,0 +1,12 @@
+*{
+  padding: 0;
+  margin: 0;
+  background-color:  #1d2634;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+.App{
+  gap: 20px;
+}

@@ -1,0 +1,41 @@
+.album-container {
+    overflow: scroll;
+    white-space: nowrap;
+    padding: 20px;
+    stroke-width: none;
+    -ms-overflow-style: none; /* IE and Edge */
+}
+
+.album-container::-webkit-scrollbar {
+    display: none; /* Oculta la barra en Chrome, Safari y Opera */
+}
+
+.album-cards {
+    display: flex;
+    gap:20px;
+}
+
+.album-cards .card{
+    flex: 0 0 auto;
+    width: 300px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.album-cards .card .card-details h2 {
+    white-space: nowrap; /* Evita que el texto se divida en varias líneas */
+    overflow: hidden; /* Oculta el texto que excede el ancho del contenedor */
+    text-overflow: ellipsis; /* Muestra puntos suspensivos (...) al final del texto */
+    max-width: 100%; /* Asegura que el ancho máximo sea el del contenedor */
+}
+
+.album-cards .card .card-image img{
+    width: 100%;
+    border-radius: 10px 10px 0 0;;
+}
+
+.album-cards .card .card-details {
+    padding: 10px;
+    text-align: center;
+}

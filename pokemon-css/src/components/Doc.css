@@ -1,0 +1,30 @@
+.doc-container{
+    margin-left: 12px;
+    gap: 10px;
+}
+
+.doc-container .doc-content p{
+    font-size: 20px;;
+}
+
+
+
+
+pre {
+    background-color: #1e1e1e; 
+    color: #d4d4d4; 
+    padding: 15px;
+    border-radius: 5px;
+    overflow-x: auto;
+    margin-bottom: 20px;
+    border: 1px solid #333; /* Borde para mayor contraste */;
+    width: 600px;
+}
+
+code {
+    font-family: "Courier New", Courier, monospace;
+    color: #d4d4d4; /* Texto claro */
+    display: block;
+    white-space: pre-wrap;
+    background-color: transparent; /* Usa el fondo del <pre> */
+}

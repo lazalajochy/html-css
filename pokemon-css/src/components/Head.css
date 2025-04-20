@@ -1,0 +1,85 @@
+.container-header {
+    padding: 20px 0;
+}
+
+.container-header ul{
+    margin:0;
+    padding: 0;
+}
+
+.container-header ul li{
+    display: inline-block;
+    margin: 10px;
+    vertical-align: middle;
+}
+
+.container-header ul li a{
+    display: inline-block;
+    text-decoration: none;
+}
+
+.container-header ul  .logo{
+    width: 100px;
+}
+
+.container-header .logo{
+  margin-right: 70vw;
+}
+
+.container-header ul li a:hover{
+    color: #f0f0f0;
+    font-size: 20px;
+}
+
+
+
+/* Media Queries for Responsive Design */
+
+@media screen and (max-width: 814px){
+    .container-header .logo{
+        margin-right: 60vw;
+    }
+}
+
+@media screen and (max-width: 611px){
+    .container-header .logo{
+        margin-right: 50vw;
+    }
+}
+
+@media screen and (max-width: 488px){
+    .container-header .logo{
+        margin-right: 40vw;
+    }
+}
+
+@media screen and (max-width: 407px){
+    .container-header .logo{
+        margin-right: 30vw;
+    }
+}
+
+@media screen and (max-width: 349px){
+    .container-header .logo{
+        margin-right: 20vw;
+    }
+}
+
+@media screen and (max-width: 305px){
+    .container-header .logo{
+        margin-right: 10vw;
+    }
+}
+
+@media screen and (max-width: 271px){
+    .container-header .logo{
+        margin-right: 0vw;
+    }
+}
+
+@media screen and (max-width: 244px){
+    .container-header ul li{
+        display: flex;
+        flex-direction: column;
+    }
+}
